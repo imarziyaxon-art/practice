@@ -1,74 +1,81 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.contener{
+.contener {
     width: 100%;
     height: 100hv;
     background-color: rgb(240, 235, 235);
- 
+
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: rgb(238, 228, 228);
     padding: 10px 35px;
-box-shadow: 0px 0px 39px 1px rgb(204, 204, 204, 0.6)
-    
+    box-shadow: 0px 0px 39px 1px rgb(204, 204, 204, 0.6)
 }
 
 nav .navbar-logo {
     font-size: 72px;
-    background: -webkit-linear-gradient(#eee,#b3b4a3);
+    background: -webkit-linear-gradient(#eee, #b3b4a3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
+    font-size: 40px;
+
 
 
 }
+
 nav .navbar-links {
- display: flex;
- list-style: none;
- gap: 20px;
- 
-}
-nav .navbar-links li a {
-   text-decoration: none;
-   transition: 0.5s;
-   color: #ddd;
-   font-family: 500;
-  
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
 }
 
-nav .navbar-links li a:hover{
+nav .navbar-links li a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: black;
+    font-family: 500;
+    font-size: 15px;
+
+}
+
+nav .navbar-links li a:hover {
     color: red;
-} 
-nav .navbar-registration{
+}
+
+nav .navbar-registration {
     display: flex;
     gap: 15px;
 
 }
-nav .navbar-registration button{
+
+nav .navbar-registration button {
     padding: 8px 33px;
     font-size: 14px;
     cursor: wait;
-    background-color: transparent;
+    background-color: #b3b4a3;
     border: 2px solid gold;
     border-radius: 4px;
     color: gold;
     transition: .5s;
 }
-nav .navbar-registration button:hover{
-     background-color: blue;
+
+nav .navbar-registration button:hover {
+    background-color: blue;
     color: #ddd;
     border: 2px solid #ddd;
 }
-main{
+
+main {
     display: flex;
     padding: 55px 45px;
     gap: 55px;
@@ -77,40 +84,45 @@ main{
     background-size: cover;
     background-position: center;
 }
-main .main image  {
-width: 50%;
+
+main .main image {
+    width: 50%;
 
 
 }
+
 main .main image img {
-  width: 100%; 
-  border: 5px gold; 
-border-radius: 12px;
-cursor: pointer;
+    width: 100%;
+    border: 5px gold;
+    border-radius: 12px;
+    cursor: pointer;
 }
-main .main-content{
-width: 50%;
-color: #181515;
+
+main .main-content {
+    width: 50%;
+    color: #181515;
 }
-main .main-content p{
+
+main .main-content p {
     margin: 35px 0px;
     line-height: 30px;
     text-align: center;
-    
+
 }
-main .main-content button{
-padding: 8px 33px;
-font-size: 20px;
-cursor: pointer;
-background-color: transparent;
-border: 2px gold;
-color:gold;
-border-radius: 4px;
-transition: .5s;
+
+main .main-content button {
+    padding: 8px 33px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px gold;
+    color: gold;
+    border-radius: 4px;
+    transition: .5s;
 }
-main .main-content button:hover{
+
+main .main-content button:hover {
     background-color: blue;
     color: #ddd;
     border: 2px solid #ddd;
 }
-  
